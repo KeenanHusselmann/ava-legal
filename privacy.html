@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ava – privacy policy</title>
+<style>
+  :root { --bg: #07051a; --panel: #110d2a; --text: #e9ecff; --dim: #b4bbe6; --cyan: #35e0f0; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1 { font-weight: 300; font-size: 38px; margin: 0 0 4px; }
+  h2 { font-weight: 500; font-size: 19px; margin-top: 32px; color: var(--cyan); }
+  p, li { color: var(--dim); }
+  a { color: var(--cyan); }
+  .meta { color: #6d74a8; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="meta">Ava, by Swift Designz (Windhoek, Namibia) · Last updated 5 October 2026</p>
+
+  <p>Ava is a personal assistant app for Windows. It is used by one person, its owner, on their own computer. This policy
+     explains what Ava does with data, in particular data from Google Calendar.</p>
+
+  <h2>Google Calendar data</h2>
+  <ul>
+    <li><strong>What Ava accesses:</strong> with the owner's permission (the Google Calendar scope), Ava reads the events in
+        the calendars the owner has visible in Google Calendar, including birthdays and holidays, from about 60 days in the past
+        to about a year ahead.</li>
+    <li><strong>What Ava does with it:</strong> shows the events in its calendar views, reminds the owner of upcoming events,
+        includes them in the owner's daily briefing, and creates, edits or deletes events when the owner (or Ava, at the owner's
+        spoken or typed request) does so.</li>
+    <li><strong>Where it is stored:</strong> on the owner's own PC, in a local database. Ava has no server and keeps no copy
+        anywhere else. The Google sign-in token is stored encrypted with Windows Data Protection (DPAPI).</li>
+    <li><strong>Sharing:</strong> Ava does not sell calendar data, does not use it for advertising, and does not share it with
+        anyone, except as follows. When the owner asks Ava a question, Ava sends the request together with relevant context,
+        which can include upcoming event titles and times, to Anthropic's Claude API, the AI service that produces Ava's answers.
+        Anthropic processes this to answer the request (see
+        <a href="https://www.anthropic.com/legal/privacy">Anthropic's privacy policy</a>). If the owner turns on Ava's optional
+        phone link, reminders and replies are delivered to the owner's own Telegram chat.</li>
+    <li><strong>Limited use:</strong> Ava's use of information received from Google APIs adheres to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+        including the Limited Use requirements.</li>
+  </ul>
+
+  <h2>Other data</h2>
+  <p>Ava stores the owner's chats, settings, notes and calendar on the owner's PC. Voice is transcribed on the PC itself.
+     If the owner turns on the desk camera, images are analysed on the PC and are not stored; a single photo is sent to
+     Claude only when the owner asks Ava to look at something.</p>
+
+  <h2>Removing access and data</h2>
+  <ul>
+    <li>Disconnect Google in Ava (Calendar › Google › Disconnect): Ava deletes the sign-in token and removes the Google events
+        from its local calendar. The events stay in Google Calendar.</li>
+    <li>Or revoke Ava's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Uninstalling Ava and deleting its data folder removes everything Ava stored.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:keenanswift101@gmail.com">keenanswift101@gmail.com</a>.</p>
+  <p><a href="index.html">← Ava home</a></p>
+</main>
+</body>
+</html>
